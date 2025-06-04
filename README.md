@@ -1,4 +1,4 @@
-#**Deployed on netlify : https://portfoliomahadev.netlify.app/**
+# **Deployed on netlify : https://portfoliomahadev.netlify.app/**
 
 # Getting Started with Create React App
 

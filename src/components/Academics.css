@@ -1,0 +1,52 @@
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .timeline-item {
+    background: var(--card-bg);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--secondary-color);
+    transition: width 0.3s ease;
+  }
+  
+  .timeline-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-item:hover::before {
+    width: 100%;
+  }
+  
+  .timeline-item h3 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .year {
+    color: #666;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .timeline-item:hover .year {
+    color: var(--secondary-color);
+  }

@@ -11,14 +11,15 @@ const Experience = () => {
         "Developed and maintained responsive web applications using Node.js",
         "Implemented RESTful APIs and integrated third-party services",
         "Collaborated with cross-functional teams in Agile development environment",
-      ]
+      ],
+      certificateUrl: "/internship.pdf"  // <- This is your public folder path
     }
   ];
 
   return (
     <section className="experience">
       <h2 className="section-title">Professional Experience</h2>
-      
+
       <div className="experience-container">
         {experiences.map((exp, index) => (
           <div className="experience-card" key={index}>
@@ -32,6 +33,18 @@ const Experience = () => {
                 <li key={i}>{item}</li>
               ))}
             </ul>
+
+            {/* View/Download Button */}
+            {exp.certificateUrl && (
+              <a
+                href={exp.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="download-button"
+              >
+                View Completion Letter
+              </a>
+            )}
           </div>
         ))}
       </div>

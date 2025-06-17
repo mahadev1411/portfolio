@@ -45,8 +45,13 @@
     color: #666;
     font-size: 0.9rem;
     transition: color 0.3s ease;
+    font-weight: 500;
   }
   
   .timeline-item:hover .year {
     color: var(--secondary-color);
   }
+
+  .grade {
+  font-weight: bold;
+}

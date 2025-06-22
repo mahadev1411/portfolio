@@ -8,9 +8,9 @@ const Experience = () => {
       company: "Small Fare Services Pvt Ltd",
       duration: "March 2025 - June 2025",
       responsibilities: [
-        "Developed and maintained responsive web applications using Node.js",
-        "Implemented RESTful APIs and integrated third-party services",
-        "Collaborated with cross-functional teams in Agile development environment",
+        "Tested and modified backend APIs for user, organizer, event, and ticket modules.",
+        "Integrated Cashfree payments with webhooks and refund handling.",
+        "Secured authentication using JWT, Redis OTP, and AES encryption."
       ],
       certificateUrl: "/internship.pdf"  // <- This is your public folder path
     }

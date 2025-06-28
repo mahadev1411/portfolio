@@ -19,7 +19,7 @@ const Projects = () => {
 NFT-based property tokens and an escrow contract involving buyer, seller, lender, 
 and inspector roles. Designed the frontend with React and tested smart contracts using 
 Chai and Mocha. `,
-      githubLink: 'https://github.com/yourusername/real-estate-dapp' 
+      githubLink: 'https://github.com/mahadev1411/real_estate_DApp' 
     }
   ];
 

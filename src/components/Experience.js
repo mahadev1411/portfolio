@@ -12,7 +12,19 @@ const Experience = () => {
         "Integrated Cashfree payments with webhooks and refund handling.",
         "Secured authentication using JWT, Redis OTP, and AES encryption."
       ],
-      certificateUrl: "/internship.pdf"  // <- This is your public folder path
+      certificateUrl: "/internship.pdf",
+      buttonText: "View Completion Letter"   // 👈 Added custom button text
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "ArisInfra Solutions Ltd.",
+      duration: "July 2025 - December 2025",
+      responsibilities: [
+        "Worked on financial data analysis using SQL and GraphDB to derive key business metrics, ensuring accuracy through validation and aggregation.",
+        "Currently working on an n8n-based automation project to streamline PO/SO creation from Excel inputs via internal APIs."
+      ],
+      certificateUrl: "/Internship-Letter_ArisInfra.pdf",
+      buttonText: "View Offer Letter"   // 👈 Different button text for second internship
     }
   ];
 
@@ -42,7 +54,7 @@ const Experience = () => {
                 rel="noopener noreferrer"
                 className="download-button"
               >
-                View Completion Letter
+                {exp.buttonText}   {/* 👈 Dynamically use button text */}
               </a>
             )}
           </div>

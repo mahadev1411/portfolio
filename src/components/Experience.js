@@ -21,7 +21,7 @@ const Experience = () => {
       duration: "July 2025 - December 2025",
       responsibilities: [
         "Worked on financial data analysis using SQL and GraphDB to derive key business metrics, ensuring accuracy through validation and aggregation.",
-        "Currently working on an n8n-based automation project to streamline PO/SO creation from Excel inputs via internal APIs."
+        "Worked on an n8n-based automation project to streamline PO/SO creation from Excel inputs via internal APIs."
       ],
       certificateUrl: "/Internship-Letter_ArisInfra.pdf",
       buttonText: "View Offer Letter"   // 👈 Different button text for second internship

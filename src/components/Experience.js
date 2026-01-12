@@ -24,7 +24,7 @@ const Experience = () => {
         "Worked on an n8n-based automation project to streamline PO/SO creation from Excel inputs via internal APIs."
       ],
       certificateUrl: "/Internship-Letter_ArisInfra.pdf",
-      buttonText: "View Offer Letter"   // 👈 Different button text for second internship
+      buttonText: "View Completion Letter"   // 👈 Different button text for second internship
     }
   ];
 

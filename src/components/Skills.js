@@ -16,7 +16,12 @@ import {
   SiPostgresql,
   SiPostman,
   SiC,
-  SiCplusplus
+  SiCplusplus,
+  SiClickhouse,
+  SiRedis,
+  SiDocker,
+  SiJest,
+  SiMocha
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -40,13 +45,15 @@ const Skills = () => {
       ]
     },
     {
-      category: 'Databases',
-      items: [
-        { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },
-        { name: 'MySQL', icon: <SiMysql color="#00758F" /> },
-        { name: 'PostgreSQL', icon: <SiPostgresql color="#336791" /> }
-      ]
-    },
+  category: 'Databases',
+  items: [
+    { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },
+    { name: 'MySQL', icon: <SiMysql color="#00758F" /> },
+    { name: 'PostgreSQL', icon: <SiPostgresql color="#336791" /> },
+    { name: 'ClickHouse', icon: <SiClickhouse color="#FFCC01" /> },
+    { name: 'Redis', icon: <SiRedis color="#DC382D" /> }
+  ]
+},
     {
       category: 'Version Control',
       items: [
@@ -61,7 +68,15 @@ const Skills = () => {
           { name: 'C', icon: <SiC color="#00599C" /> },       // blue C
           { name: 'C++', icon: <SiCplusplus color="#00599C" /> }
         ]
-      }
+      },
+      {
+  category: 'Tools & Testing',
+  items: [
+    { name: 'Docker', icon: <SiDocker color="#2496ED" /> },
+    { name: 'Jest', icon: <SiJest color="#C21325" /> },
+    { name: 'Mocha', icon: <SiMocha color="#8D6748" /> }
+  ]
+}
       
   ];
 

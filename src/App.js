@@ -92,7 +92,7 @@ function App() {
       </Routes>
       
       <footer className="footer">
-        <p>© 2025 Mahadev. All rights reserved.</p>
+        <p>© 2026 Mahadev. All rights reserved.</p>
       </footer>
     </Router>
   );

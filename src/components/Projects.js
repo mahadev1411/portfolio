@@ -6,6 +6,12 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Blockchain-Enabled Smart Water Allocation System",
+      desc:
+        "End-to-end smart water management system integrating IoT sensors, ML models, and blockchain to optimize agricultural water allocation. Used Hyperledger Fabric for immutable records and Cassandra for scalable data storage.",
+      githubLink: "https://github.com/mahadev1411/Smart-water-allocation",
+    },
+    {
       title: "Smart Parking System",
       desc:
         "The Smart Parking System uses IoT sensors to detect available parking spots in real-time. It helps drivers find open spaces quickly through a mobile app, reducing traffic and parking time.",
@@ -22,13 +28,7 @@ const Projects = () => {
       desc:
         "Blockchain-based Real Estate Dapp built with Solidity and Hardhat. Uses NFT-based property tokens and an escrow contract involving buyer, seller, lender, and inspector roles. Frontend built with React and contracts tested using Chai and Mocha.",
       githubLink: "https://github.com/mahadev1411/real_estate_DApp",
-    },
-    {
-      title: "Blockchain-Enabled Smart Water Allocation System",
-      desc:
-        "End-to-end smart water management system integrating IoT sensors, ML models, and blockchain to optimize agricultural water allocation. Used Hyperledger Fabric for immutable records and Cassandra for scalable data storage.",
-      githubLink: "https://github.com/mahadev1411/Smart-water-allocation",
-    },
+    }
   ];
 
   const scrollByOneCard = (direction) => {
